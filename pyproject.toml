@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "titanic"
+version = "0.1.0"
+description = "Code for Kaggle sesion in COM-DEV with dataset Spaceship Titanic"
+authors = ["Anxo Tato Arias <atato@gradiant.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+ipykernel = "^6.25.2"
+pandas =  "*"
+seaborn =  "*"
+ydata-profiling = "*"
+scikit-learn =  "*"
+numpy = "*"
+matplotlib =  "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
