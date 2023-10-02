@@ -10,7 +10,7 @@ The work will be divided in two sessions:
 
 ## Installation instructions
 
-## Install Poetry and Pyenv
+### Install Poetry and Pyenv
 We use Pyenv to manage different installations of Python in the same machine and we use Poetry to manage the Python packages of a given project.
 
 - To install Poetry (<https://python-poetry.org/docs/>):
@@ -48,7 +48,7 @@ eval "$(pyenv virtualenv-init -)"
 pyenv --version
 ```
 
-## Install the Python version you need
+### Install the Python version you need
 For this repository the 3.9.13 Python version is used. Proceed as
 
 ```
@@ -57,7 +57,7 @@ cd spaceship-titanic
 pyenv local 3.9.13
 ```
 
-## Setup your Poetry project
+### Setup your Poetry project
 - Go to your project folder with `cd spaceship-titanic`
 
 - Tell Poetry to use this particular version of Python with: 
