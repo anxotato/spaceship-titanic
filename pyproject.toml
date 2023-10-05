@@ -8,12 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.9.13"
 ipykernel = "^6.25.2"
-pandas =  "*"
+pandas =  "^1"
 seaborn =  "*"
 ydata-profiling = "*"
 scikit-learn =  "*"
 numpy = "*"
-matplotlib =  "*"
+matplotlib =  "3.7.0"
+ipywidgets = "^8.1.1"
 
 
 [build-system]
